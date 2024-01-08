@@ -1,0 +1,589 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body
+{
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    font-size: 17px;
+    color: #686868;
+    line-height: 1.86em;
+
+
+}
+
+body p 
+{
+    color: #888;
+    padding: 0 40px;
+}
+
+body h1,h2,h3,ul 
+{
+    font-family: "Alegreya";
+    margin-bottom: 25px;
+    font-weight: 400;
+
+}
+
+
+
+.home
+{
+    height: 100vh;
+    text-align: center;
+    background-image: url(../images/Div\ Home.jpg);
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.home .overlay .content
+{
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.home .overlay .content span 
+{
+    color: white;
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+
+
+.home .overlay .content h1 
+{
+    color: white;
+    font-family: "Alegreya Sans";
+    font-size: 60px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.home .overlay .content p 
+{
+    color: white;
+    font-family: "Alegreya Sans";
+    font-size: 22px;
+    padding: 14px;
+
+
+}
+
+.home .overlay .content button 
+{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 17px 28px;
+    border-radius: 5%;
+    color: white;
+    margin-top: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+
+
+}
+
+.home .overlay .content button:hover
+{
+    background-color: white;
+    color: #000;
+}
+
+
+.home .overlay .content .btn1 
+{
+    background: rgb(142, 119, 84);
+    border: 2px solid transparent;
+    margin: 0 5px;
+    padding: 17px 28px;
+    border-radius: 5%;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s;
+
+
+}
+
+.home .overlay .content .btn1.btn1:hover
+{
+    background-color: white;
+    color: #000;
+}
+
+
+.home .overlay
+{
+    background-color: #00000062;
+    overflow: hidden;
+    height: 100vh;
+    padding: 70px;
+}
+
+
+
+.home .navbar 
+{
+    overflow: hidden;
+    background-color: #fff;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.home .navbar .container img 
+{
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-top:10px ;
+
+}
+
+
+.home .navbar ul 
+{
+    float: right;
+    list-style-type: none;
+    color: white;
+}
+
+.home .navbar ul li 
+{
+    float: left;
+    font-size: 20px;
+    padding:  10px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: rgb(142, 119, 84);
+    transition: all 0.5s;
+}
+
+.home .navbar ul li:hover
+{
+    color: #000;
+}
+
+
+
+.home .navbar .container 
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about 
+{
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.about .about-picture 
+{
+    width: 45%;
+    float: left;
+    margin: 40px;
+
+}
+
+.about .about-picture img 
+{
+    width: 100%;
+    margin: 10px;
+}
+
+.about .about-discription 
+{
+    width: 45%;
+    float: left;
+    padding-top: 50px;
+
+}
+
+.about .about-discription h2 
+{
+    padding: 0 40px;
+
+}
+
+.about .about-discription p 
+{
+    margin-bottom: 10px;
+}
+
+
+
+
+.about .about-discription span img 
+{
+    display: inline-block;
+    width: 40px;
+    border: wheat 1px solid;
+    border-radius: 50%;
+
+
+}
+
+.about .about-discription li 
+{
+    display: inline-block;
+    padding-left: 10px;
+    margin-bottom: 2px;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.location 
+{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+.location .location-discription 
+{
+    width: 55%;
+    float: left;
+    margin-top: 80px;
+    padding: 50px 0;
+
+
+}
+
+.location .location-discription h2 
+{
+    padding: 0 40px;
+}
+
+.location .location-discription p 
+{
+    margin-bottom: 20px;
+
+
+}
+
+
+
+.location .location-photo 
+{
+    width: 45%;
+    float: left;
+    padding: 30px 0;
+}
+
+.location .location-photo img 
+{
+    width: 90%;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container 
+{
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+
+.container p 
+{
+    padding: 0 20px;
+}
+
+.container .items 
+{
+    overflow: hidden;
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+
+
+
+}
+
+.container .items img 
+{
+    width: 90%;
+}
+
+.container .items .item 
+{
+    width: 33.3333%;
+    text-align: center;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact
+{
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin: 0 70px;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.contact .Contact-Information
+{
+    width: 55%;
+    float: left;
+    margin: 15px 0;
+    
+}
+
+.contact .Contact-Information p
+{
+    margin: 12px 0px;
+    padding: 20px 0px;
+}
+
+.contact .Contact-map
+{
+    width: 45%;
+    float: left;
+    margin: 15px 0;
+    
+
+    
+}
+
+.contact .Contact-map img
+{
+    width: 100%;
+
+}
+
+
+.contact .Contact-Information li 
+{
+    padding-left: 10px;
+    margin-bottom: 2px;
+
+}
+
+.contact .Contact-Information span img 
+{
+    display: inline-block;
+    width: 40px;
+    border: wheat 1px solid;
+    border-radius: 50%;
+    background: rgb(142, 119, 84);
+    margin-top: 2px;
+
+
+}
+
+.contact .Contact-Information li 
+{
+    display: inline-block;
+    padding-left: 12px;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+.demo
+{
+    overflow: hidden;
+    margin: auto;
+    background-color:#403d38;
+    color: #969696;
+    padding-top: 40px;
+    font-weight: 400;
+    
+    
+}
+
+
+.demo p
+{
+    margin-bottom: 20px;
+
+}
+
+
+
+.demo h3
+{
+    color: white;
+    padding: 10px 50px;
+}
+
+.demo ul
+{
+    list-style-type: none;
+
+}
+
+
+.demo .about-us
+{
+    width: 25%;
+    float: left;
+    list-style-type: none;
+
+}
+
+.demo .special
+{
+    width: 25%;
+    float: left;
+    list-style-type: none;
+
+}
+
+.demo .hours
+{
+    width: 25%;
+    float: left;
+    list-style-type: none;
+
+}
+
+.demo .details
+{
+    width: 25%;
+    float: left;
+    list-style-type: none;
+
+}
+
+.demo .details span img 
+{
+    display: inline-block;
+    width: 35px;
+    background-color: transparent;
+    margin-top: 2px;
+    
+}
+
+.demo .details ul
+{
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+}
+
+.demo .details ul img
+{
+    margin: auto;
+
+}
+
+.demo .details li 
+{
+    display: inline-block;
+    padding-left: 12px;
+    
+
+}
+
+
+.end
+{
+    font-size: 14px;
+    text-align: center;
+    color: #797979;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-image: url(../images/textured-metal-background.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+
+   
+}
+
+.end p
+{
+    margin-bottom: 8px;
+}
+
+
+.end span img
+{
+    display: inline-block;
+    width: 40px;
+    cursor: pointer;
+    background-color: #484540;
+    border-radius: 50%;
+
+}
+
+
+.end span img:hover
+{
+    background-color: bisque;
+}
+
+
+
+
+
+
